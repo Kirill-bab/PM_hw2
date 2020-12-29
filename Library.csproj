@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Task_1._1.TestAccounts</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BettingPlatformEmulatorTest\obj\**" />
+    <Compile Remove="Task1.3\bin\**" />
+    <Compile Remove="Task1.3\obj\**" />
+    <Compile Remove="Task_1.1\obj\**" />
+    <Compile Remove="Task_1.2\bin\**" />
+    <Compile Remove="Task_1.2\obj\**" />
+    <Compile Remove="Task_1.3\**" />
+    <Compile Remove="Task_1.4\bin\**" />
+    <Compile Remove="Task_1.4\obj\**" />
+    <Compile Remove="Task_1.5\bin\**" />
+    <Compile Remove="Task_1.5\obj\**" />
+    <Compile Remove="Task_1.6\obj\**" />
+    <Compile Remove="Task_2.1\bin\**" />
+    <Compile Remove="Task_2.1\obj\**" />
+    <Compile Remove="Task_3.1\obj\**" />
+    <Compile Remove="Task_3.2\obj\**" />
+    <Compile Remove="Task_4.1\obj\**" />
+    <Compile Remove="Task_4.2\obj\**" />
+    <EmbeddedResource Remove="BettingPlatformEmulatorTest\obj\**" />
+    <EmbeddedResource Remove="Task1.3\bin\**" />
+    <EmbeddedResource Remove="Task1.3\obj\**" />
+    <EmbeddedResource Remove="Task_1.1\obj\**" />
+    <EmbeddedResource Remove="Task_1.2\bin\**" />
+    <EmbeddedResource Remove="Task_1.2\obj\**" />
+    <EmbeddedResource Remove="Task_1.3\**" />
+    <EmbeddedResource Remove="Task_1.4\bin\**" />
+    <EmbeddedResource Remove="Task_1.4\obj\**" />
+    <EmbeddedResource Remove="Task_1.5\bin\**" />
+    <EmbeddedResource Remove="Task_1.5\obj\**" />
+    <EmbeddedResource Remove="Task_1.6\obj\**" />
+    <EmbeddedResource Remove="Task_2.1\bin\**" />
+    <EmbeddedResource Remove="Task_2.1\obj\**" />
+    <EmbeddedResource Remove="Task_3.1\obj\**" />
+    <EmbeddedResource Remove="Task_3.2\obj\**" />
+    <EmbeddedResource Remove="Task_4.1\obj\**" />
+    <EmbeddedResource Remove="Task_4.2\obj\**" />
+    <None Remove="BettingPlatformEmulatorTest\obj\**" />
+    <None Remove="Task1.3\bin\**" />
+    <None Remove="Task1.3\obj\**" />
+    <None Remove="Task_1.1\obj\**" />
+    <None Remove="Task_1.2\bin\**" />
+    <None Remove="Task_1.2\obj\**" />
+    <None Remove="Task_1.3\**" />
+    <None Remove="Task_1.4\bin\**" />
+    <None Remove="Task_1.4\obj\**" />
+    <None Remove="Task_1.5\bin\**" />
+    <None Remove="Task_1.5\obj\**" />
+    <None Remove="Task_1.6\obj\**" />
+    <None Remove="Task_2.1\bin\**" />
+    <None Remove="Task_2.1\obj\**" />
+    <None Remove="Task_3.1\obj\**" />
+    <None Remove="Task_3.2\obj\**" />
+    <None Remove="Task_4.1\obj\**" />
+    <None Remove="Task_4.2\obj\**" />
+  </ItemGroup>
+
+</Project>
